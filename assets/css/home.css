@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: "Rubik",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4b566b;
+    text-align: left;
+    background-color: #fff;
+}
+
+.box-shadow-sm {
+    box-shadow: 0 0.125rem 0.3rem -0.0625rem rgba(0,0,0,0.03),0 0.275rem 0.75rem -0.0625rem rgba(0,0,0,0.06) !important;
+}
+
+.topbar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .625rem 0;
+    font-size: .875rem;
+}
+
+.topbar-dark .topbar-text, .topbar-dark .topbar-link {
+    color: rgba(255,255,255,0.65);
+}
+
+.topbar .topbar-text, .topbar .topbar-link {
+    display: inline-block;
+    margin-bottom: 0;
+    text-decoration: none !important;
+}
+
+.d-md-block {
+    display: block !important;
+}
